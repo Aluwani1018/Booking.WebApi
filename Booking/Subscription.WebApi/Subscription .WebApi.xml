@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Subscription .WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:Subscription.WebApi.Controllers.AccountController.RegisterAsync(Subscription.WebApi.Models.Account.Requests.RegisterRequest)">
+            <summary>
+            Register an account
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Subscription.WebApi.Controllers.AuthenticationController.LogInAsync(Subscription.WebApi.Models.Authentication.Requests.LogInRequest)">
+            <summary>
+            User Log in
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Subscription.WebApi.Controllers.AuthenticationController.RefreshTokenAsync(Subscription.WebApi.Models.Authentication.Requests.RefreshTokenRequest)">
+            <summary>
+            User Log in
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Subscription.WebApi.Controllers.AuthenticationController.RevokeToken(Subscription.WebApi.Models.Authentication.Requests.RevokeTokenRequest)">
+            <summary>
+            User Log in
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Subscription.WebApi.Controllers.SubscriptionController.SubscribeAsync(Subscription.Core.Domain.Enums.SubscriptionTypeEnum)">
+            <summary>
+            Get account balance for a account id
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Subscription.WebApi.Controllers.SubscriptionController.GetAllSubscriptionTypesAsync">
+            <summary>
+            Get account balance for a account id
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Subscription.WebApi.Controllers.SubscriptionController.GetAllBooks">
+            <summary>
+            Get account balance for a account id
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

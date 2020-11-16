@@ -2,4 +2,8 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/Booking/.vs/Subscription
+/.vs
+/**/*/bin
+/**/*/obj
+*.user
+
